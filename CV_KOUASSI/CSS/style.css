@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+}
+
+/*first & second blocks*/
+.container{
+  background: orange;
+  padding-bottom: 20px;
+
+}
+.container,.description{
+   display: inline-block;
+}
+
+/*Image*/
+.circle{
+    border: solid 1px rgba(255, 255, 255, 0.008);
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    background: linear-gradient(orange,white );
+    box-shadow: 3px 1px 1px rgba(128, 128, 128, 0.199);
+    margin: 20px 0 20px 40px;
+}
+/*My name*/
+.my_name{
+    margin-bottom: 30px;
+    margin-left: 44px;
+}
+.fabrice{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgba(245, 245, 220, 0.83);
+    
+}
+.kouassi{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: beige;
+    font-weight: bold;
+}
+.separator {
+    width: 40px;
+    height: 1px;
+    margin: 10px 0 0 20px ;
+    display: block;
+    background: #999999;
+}
+/*Profession*/
+.etudiant{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    font-size: 13.5px;
+    margin-top: 20px;
+    color: rgb(230, 230, 217);
+}
+/*Information personnelle*/
+.contact{
+    margin-left: 44px;
+    color: beige;
+    margin-bottom: 30px;
+}
+.contact:hover{
+    text-decoration: underline;
+}
+
+footer p{
+    margin: 15px 15px 15px 44px;
+    color: beige;
+}
+
+.number{
+    font-size: 13px;
+    font-weight: bold;
+}
+p .mail,.mail_2{
+    text-decoration: none;
+    color: beige;
+}
+.adresse{
+    padding-bottom: 14px;
+}
+.mail:hover,.mail_2:hover{
+    text-decoration: underline;
+}
+/*Icones*/
+.icons{
+    font-size: 17.9px;
+    border: 0.1px dashed rgba(245, 245, 220, 0.063);
+    padding: 3.5px;
+    width: 14px;
+    height: 14px;
+    border-radius: 7px;
+    margin-right: 1px;
+}
+.icons:hover{
+    color: orange;
+    background: beige;
+    transition: 1ms;
+}
+/*Competence & Langage*/
+.competence{
+    color:  beige;
+    font-size: 14px;
+    margin-left: 44px;
+    margin-bottom: 10px;
+}
+.list_1,.list_2,.list_3,.list_5{
+    color: beige;
+    font-size: 12px;
+    margin-left: 44px;
+    margin-bottom: 3px;
+}
+.langage{
+    margin-top: 20px;
+}
+.langage_1{
+    color:  beige;
+    font-size: 14px;
+    margin-left: 44px;
+    margin-bottom: 10px;
+}
+.list_6,.list_7{
+    color: beige;
+    font-size: 12px;
+    margin-left: 44px;
+    margin-bottom: 3px;
+}
+
+/*SECOND PARTIE*/
+
+/*block1*/
+.block_1{
+    padding: 0px 0 10px 0;
+    margin-left: 25px;
+}
+.profile{
+    margin-bottom: 20px;
+    color: orange;
+}
+.text_1{
+    padding: 0px 0 10px 0;
+    border-bottom: 1px solid orange;
+    
+}
+/*block2*/
+
+.block_2 {
+    margin-left: 25px;
+}
+.block_2 .div_bottom{
+    border-bottom: 1px solid orange;
+}
+.experience{
+    color:  orange;
+    margin-bottom: 20px;
+}
+/*element commun des differentes section*/
+.experience:hover,.profile:hover,.competence:hover,.langage_1:hover,.loisirs:hover{
+    text-decoration: underline;
+}
+.dev_designer,.edu,.loisirs{
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+.present,.year,.year_2{
+    color: orange;
+}
+.igs,.ks,.uvci{
+    margin-bottom: 5px;
+    font-weight: 900;
+}
+.text_2,.text_3,.text_4,.text_5{
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid orange;
+    margin-bottom: 20px;
+}
+.formateur{
+    margin-bottom: 20px;
+}
+/*block3*/
+
+.block_3{
+    padding: 10px 0 20px 0;
+    margin-left: 25px;
+}
+/*Block4*/
+.loisirs{
+    color: orange;
+}
+
+
+/*Footer*/
+.footer_of_page{
+    text-align: end;
+}
+.foot_name{
+    font-weight: bold;
+
+}
+/*Medias queries*/
+/*@media (max-width: 1213px){
+    .container{
+        width: 100%;
+        text-align: center;
+    }
+    .circle{
+        text-align: center;
+    }
+}*/
